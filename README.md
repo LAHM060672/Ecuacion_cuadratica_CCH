@@ -46,17 +46,17 @@ El primer programa
 vamos a calcular la ecuación cuadrática con la fórmula general, sin condicionantes.
 En este programa se utiliza el lenguaje de programación Python para resolver un problema matemático, en este caso, la ecuación cuadrática, a
 través de funciones de entrada y salida de datos, el programa solicita al usuario los coeficientes a, b y c, y luego realiza los cálculos necesarios para obtener los valores de x1 y x2.
-# Solicitar coeficientes al usuario
+## Solicitar coeficientes al usuario
 a = float(input("Ingrese el coeficiente a: "))
 
 b = float(input("Ingrese el coeficiente b: "))
 
 c = float(input("Ingrese el coeficiente c: "))
 
-# se calcula el descriminante
+## se calcula el descriminante
 D=pow(b,2)-4*a*c
 
-# se calcula el valor de x1 y el valor de x2
+## se calcula el valor de x1 y el valor de x2
 x1=(-b+pow(D,1/2))/(2*a)
 
 x2=(-b-pow(D,1/2))/(2*a)
@@ -73,7 +73,7 @@ Es importante manejar estructuras de control condiciones if-elif-else en este ej
 *Y si D es menor que cero, la ecuación no tiene soluciones reales, sino soluciones complejas.
 Por lo tanto, se utiliza la estructura de control if-elif-else para determinar qué solución se debe mostrar al usuario según el valor del discriminante D.¶
 Aquí está el código:
-# Solicitar coeficientes al usuario
+## Solicitar coeficientes al usuario
 a = float(input("Ingrese el coeficiente a: "))
 
 b = float(input("Ingrese el coeficiente b: "))
@@ -81,7 +81,7 @@ b = float(input("Ingrese el coeficiente b: "))
 c = float(input("Ingrese el coeficiente c: "))
 
 
-# se calcula el descriminante
+## se calcula el descriminante
 
 D=pow(b,2)-4*a*c
 
